@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorRed">#FE5461</color>
+    <color name="colorSlightRed">#1FFE5461</color>
+    <color name="colorRedAlpha">#14FE5461</color>
+
+    <color name="colorFulPink">#FE619A</color>
+    <color name="colorFulPinkAlpha">#14FE619A</color>
+    <color name="colorFulSlightPink">#1FFE619A</color>
+
+    <color name="colorFulPurple">#CA65FF</color>
+    <color name="colorFulPurpleAlpha">#14CA65FF</color>
+    <color name="colorFulSlightPurple">#1FCA65FF</color>
+
+    <color name="colorFulTurquoise">#29CB97</color>
+    <color name="colorFulSlightTurquoise">#1F29CB97</color>
+    <color name="colorFulTurquoiseAlpha">#1429CB97</color>
+
+    <color name="colorBlue">#4C84FF</color>
+    <color name="colorFullSlightBlue">#1F4C84FF</color>
+    <color name="colorBlueAlpha">#144C84FF</color>
+
+    <color name="colorGrayscaleBlack">#191E27</color>
+    <color name="colorDimnessBlack76">#C2191E27</color>
+    <color name="colorWhite76">#C2FFFFFF</color>
+    <color name="colorGrayscaleGray">#CCD3E5</color>
+    <color name="colorSlightDarkGray">#1FA3A9B8</color>
+
+    <color name="colorFulViolet">#9C60FF</color>
+    <color name="colorFullSlightViolet">#1F9C60FF</color>
+    <color name="colorVioletAlpha">#149C60FF</color>
+
+    <color name="colorGrayscaleDarkGray">#A3A9B8</color>
+    <color name="colorTransparentAlpha">#1FA3A9B8</color>
+    <color name="colorGrayscaleDarkGray2">#C2191E27</color>
+    <color name="colorFulYellow">#FFCA43</color>
+    <color name="ColorfulYellow12">#1FFFCA43</color>
+
+    <color name="colorFulOrange">#FFA24D</color>
+    <color name="colorFullSlightOrange">#1FFFA24D</color>
+    <color name="colorOrangeAlpha">#14FFA24D</color>
+
+
+    <color name="colorFullGreen">#77D460</color>
+    <color name="colorFullGreenAlpha">#1477D460</color>
+
+    <color name="colorFullCoral">#FF8766</color>
+    <color name="colorFullCoralAlpha">#14FF8766</color>
+    <color name="colorFullSlightCoral">#1FFF8766</color>
+
+    <color name="colorFulLightBlue">#61C6F2</color>
+    <color name="colorFulLightBlueAlpha">#1461C6F2</color>
+</resources>

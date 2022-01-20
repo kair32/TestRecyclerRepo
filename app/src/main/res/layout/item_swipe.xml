@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:sml="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="item"
+            type="com.aks.testrecycler.ConversationItem" />
+    </data>
+
+    <com.tubb.smrv.SwipeHorizontalMenuLayout
+        android:id="@+id/swipe_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        sml:sml_auto_open_percent="0.2"
+        sml:sml_scroller_duration="250">
+
+        <include
+            android:id="@id/smContentView"
+            layout="@layout/item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            bind:item="@{item}" />
+
+        <LinearLayout
+            android:id="@id/smMenuViewRight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:onClick="@{()->item.onMute()}"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="#CCD3E5"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Вкл. звук"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:lines="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:onClick="@{()->item.onPin()}"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="#FF8766"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Прикрепить"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:ellipsize="end"
+                    android:lines="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.tubb.smrv.SwipeHorizontalMenuLayout>
+
+</layout>
